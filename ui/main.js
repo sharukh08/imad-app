@@ -6,9 +6,8 @@ element.innerHTML = 'New Value';
 var img = document.getElementById('madi');
 img.onclick = function (game){
   img.style.marginleft = '100px';  
-    
     };
-    return game;
+    
     
 
 
