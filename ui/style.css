@@ -1,8 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
     margin-top: 75px;
-    margin-left:50px;
+    
     
 }
 
@@ -23,5 +22,5 @@ body {
 }
 .Inform {
     max-width: 800px;
-    color: red;
+    color: grey;
     }
