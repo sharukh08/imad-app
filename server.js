@@ -80,8 +80,8 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('https://scontent.fnag1-2.fna.fbcdn.net/v/t1.0-0/p370x247/22281918_1532597456832910_4241357492021964385_n.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'https://scontent.fnag1-2.fna.fbcdn.net/v/t1.0-0/p370x247/22281918_1532597456832910_4241357492021964385_n.jpg'));
 });
 
 
